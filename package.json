@@ -1,0 +1,14 @@
+{
+  "name": "web_project_api_full",
+  "version": "1.0.0",
+  "description": "Proyecto 16",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anouk Aubert",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

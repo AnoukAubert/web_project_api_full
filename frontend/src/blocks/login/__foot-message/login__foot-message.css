@@ -1,0 +1,16 @@
+.login__foot-message {
+  margin-top: 25px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .login__foot-message {
+    margin-left: 10%;
+    width: 80%;
+  }
+}

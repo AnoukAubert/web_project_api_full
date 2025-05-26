@@ -1,0 +1,47 @@
+/**
+ * Main App Component
+ * Handles the routing, state management, and user interface for the application.
+ * It includes popups, authentication handling, and context management for the current user.
+ * 
+ * @component
+ * @example
+ * return (
+ *  <App />
+ * )
+ */
+
+function App() {
+  /**
+   * State variable for controlling the profile edit popup visibility.
+   * @type {boolean}
+   */
+  const [openPopupProfile, setOpenPopupProfile] = React.useState(false);
+
+  /**
+   * State variable for controlling the new post popup visibility.
+   * @type {boolean}
+   */
+  const [openPopupNewPost, setOpenPopupNewPost] = React.useState(false);
+
+  /**
+   * Closes all open popups in the application.
+   */
+  const closeAllPopups = () => {
+    setOpenPopupProfile(false);
+    setOpenPopupNewPost(false);
+    // Other popups closing logic here
+  };
+
+  /**
+   * Opens the profile edit popup.
+   */
+  const handleEditProfileClick = () => {
+    setOpenPopupProfile(true);
+  };
+
+  return (
+    // JSX rendering logic
+  );
+}
+
+export default App;
